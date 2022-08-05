@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+*{
+    font-family: Poppins;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.formeE-meraude{
+
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    background-image: url('Images/FormesE-meraude.png');
+    background-position: center;
+    background-size:cover;
+    z-index: -1;
+}
+
+.container{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 70%;
+    height: auto;
+    align-self: center;
+}
+
+.ImageTech{
+    margin-bottom: 60px;
+}
+
+.hero{
+    text-align: center;
+    padding-top: 200px;
+}
+
+h1{
+    font-size: 64px;
+}
+
+h4{
+    margin-top: 20px;
+}
+
+p{
+    margin-top: 40px;
+}
+
+.espace-description{
+    margin-top: 20px;
+}
+
+.premierePartie{
+    padding-top: 40px;
+}
+
+.display-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.display-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+section{
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+.consequences{
+    background-color: #65A691;
+    margin-top: 60px;
+    margin-bottom: 90px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    color: white;
+}
+
+.divIcones{
+    padding-top: 60px;
+    padding-bottom: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    box-shadow: 0px 20px 50px 10px rgba(0,0,0,0.15);
+    border-radius: 10px;
+}
+
+.iconCard{
+    width: 240px;
+    height: 240px;
+}
+
+.cardIconContainer{
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    /*background: rgb(145, 74, 74);*/
+}
+
+.blocDropdown{
+    margin-bottom: 40px;
+}
+
+.dropdownTitre{
+    margin: 0px;
+    background-color:rgb(235, 235, 235);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 17px;
+    transition: 0.4s;
+    border-radius: 18px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 18px;
+    align-items: center;
+}
+
+.dropdown {
+    /* border: 2px solid #000000; */
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+/*
+.rotation{
+    transform: rotate(-45deg);
+    color:red;
+}
+*/
+
+
+.active, .dropdownTitre:hover{
+    background-color:#65A691; 
+    border-radius: 16px;
+    color: white;
+    font-size: 18px;
+}
+
+.dropdownTitre:hover {
+    border-radius: 18px;
+}
+
+.dropdownText {
+    padding: 0 16px;
+    display: none;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+.arrowDown{
+    width: 30px;
+    height: auto;
+    margin-right: 30px;
+}
+
+.margin60{
+    margin-bottom: 60px;
+}
+
+.margin80{
+    margin-bottom: 80px;
+}
+
+.ImageQualite{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    justify-self: center;
+}
+
+.logos{
+    align-self: center;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+.logoClass{
+    width: 300px;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.cardArticle{
+    width: 30%;
+    border-radius: 20px;
+}
+
+.imageArticle{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.cardElements{
+    padding: 15px 25px 25px 25px;
+}
+
+.masquer{
+    display: none;
+}
+
+.iconCard:hover {
+    cursor: pointer;
+    box-shadow: 0px 20px 50px 10px rgba(91, 95, 94, 0.425);  
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);  
+
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.selectionner {
+    box-shadow: 0px 20px 50px 10px rgba(49, 142, 127, 0.425);
+    background-color: #65A691;
+}
+
+.selectionnerTitre {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #65A691;
+
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.iconCard {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.iconCard i {
+    display:flex; 
+    flex : 100%;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+    font-size: 100px;
+}

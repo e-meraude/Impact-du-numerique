@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Article</title>
+</head>
+<script src="https://kit.fontawesome.com/bc00056d66.js" crossorigin="anonymous"></script>
+<body onload="habitudesConso()">
+
+    <div class="formeE-meraude"></div>
+
+    <div class="container">
+        <section class="hero">
+            <div class="display-flex">
+                <h1>L’impact du numérique sur l’environnement, comment limiter notre activité ?</h1>
+                <div class="espace-description">
+                    <p>Entre les appareils électroniques et la dématérialisation de la majeure partie de notre activité, le numérique nous entoure et est de plus en plus présent dans notre quotidien… 
+                        <br>Cependant, cette transition vers le digital représente pas loin de 3% des émissions de gaz à effet de serre dans le monde, et au niveau national, plus de 2%. D’ici 20 ans, ces émissions risquent de tripler. En ces temps de grande prise de conscience du règlement climatique, que pouvons-nous faire à notre échelle humaine pour limiter notre empreinte numérique ? Quelles sont les actions quotidiennes à mettre en place ?
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="premierePartie display-flex">
+            <img class="ImageTech" src="Images/IllustrationTech@4x.png" alt="">
+            <!--ICI METTRE IMAGE IMPACT-->
+            <h2>Qu’est-ce que l’impact numérique ?</h2>
+            <p>La <b>pollution du digital</b> concerne toutes les formes de pollutions générées par le monde du numérique. Elle englobe tant bien la simple action d’écouter de la musique, d’envoyer un mail <b>jusqu’à la fabrication et la fin de vie des produits électroniques</b>. <br>En effet, cette étape dans la vie du numérique est l’une des plus impactantes avec le stockage des données dans les datacenters. La sauvegarde des fichiers dans les datacenters est à eux seuls responsables de la <b>moitié des émissions des gaz à effet de serre générées par le digital</b>.
+                <br><br><i>Exemple : D’après des études de l’ADEME, la fabrication d’un ordinateur de 2kg nécessite 800kg de matières premières, 124kg de CO2 générés sur les 169kg émis sur l’ensemble de son cycle de vie.
+                La partie la plus polluante dans le cycle de vie d’un ordinateur est, sans doute, sa fabrication ainsi que son transport à travers le monde.</i>
+            </p>
+        </section>
+        <section class="consequences">
+            <h2>Quelles sont les conséquences du numérique ?</h2>
+            <p>Malheureusement, le problème de la pollution numérique est qu’on ne la voit pas directement. Cependant, on ne peut pas la négliger… Cette empreinte carbone est en constante augmentation et représente environ 1400 tonnes de CO2 par an.
+               A ce jour, la vidéo représente plus de <b>60% du trafic</b> présent sur Internet, qu’elle soit regardée en ligne ou partagée sur les réseaux sociaux. Le transfert, le visionnage et le stockage des vidéos consomment énormément d’énergie. A chaque fois que nous cliquons sur une de ces vidéos, elle parcourt tout le chemin depuis le datacenter, jusqu’à nous. Ce chemin peut représenter jusqu’à 15000 kilomètres, l’équivalent d’un <b>aller-retour Paris-Miami</b>.
+            </p>
+        </section>
+
+        <section class="reduireImpact display-flex">
+            <h2>Comment réduire notre empreinte numérique ?</h2>
+            <p>Communiquer avec notre entourage, regarder des vidéos sur Internet ou encore écouter de la musique, ce sont des actions réalisées quotidiennement qui augmentent nos émissions, sans que l’on s’en rende compte. 
+                Quelles actions pouvons-nous mettre en place pour optimiser et réduire notre impact digital sur l’environnement ?
+            </p>
+            <div class="divIcones">
+                <div class="display-flex cardIconContainer">
+                    <div onclick="habitudesConso()" id="card1" class="card iconCard">
+                        <i class="fas fa-thumbs-up"></i>
+                    </div>
+                    <!--ICI METTRE ICONE CONSOMMATION-->
+                    <p id="titreHabConso">Changer nos habitudes de consommation</p>
+                </div>
+                <div class="display-flex cardIconContainer">
+                    <div onclick="actionsQuotidiennes()" id="card2" class="card iconCard">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <!--ICI METTRE ICONE COEUR-->
+                    <p id="titreActQuot">Mettre en place des actions quotidiennes</p>
+                </div>
+            </div>
+
+            <div id="habitudesConso" class="blocDropdown">
+                <div class="dropdown">
+                    <button class="dropdownTitre">Penser aux alternatives à l’achat <i class="fas fa-angle-down fa-xl fleches"></i></button>
+                    <div class="dropdownText">
+                        <p>L’achat est le premier moyen d’acquisition d’un bien. Instinctivement, nous nous tournons vers cette forme de consommation, car c’est souvent la plus simple. Cependant, nous devons acheter de manière raisonnée et <b>favoriser les achats d’appareils éco-conçus</b>, en prenant en compte la fabrication, les matériaux et les effets environnementaux du produit ! 
+                            <br><br><b>Acheter des produits responsables</b> c’est bien, mais l’achat n’est pas la seule alternative lorsque l’on veut acquérir un bien. 
+                            <br><br>La <b>location</b> reste un moyen d’utilisation des appareils durable. La location permet une <b>mutualisation des produits</b> loués entre plusieurs personnes. Un seul produit pourra servir à différentes personnes, selon les usages de chacun, réduisant ainsi la fabrication de matériel numérique.
+                            <br>De plus en plus d’entreprises proposent des services de location de tout genre. Nous pouvons citer l’entreprise <b><a href="www.google.com">Commown</a></b> qui loue du matériel électronique (smartphone, ordinateur, casque audio) à des particuliers mais aussi à des professionnels. Commown s’adapte à tous les besoins, de la location à la réparation des appareils ! 
+                            <br><br>En plus de la location, le marché de <b>l’occasion et du reconditionné</b> est vaste. On ne présente plus les principaux acteurs (comme Le Bon Coin, Backmarket, Ebay, Cdiscount, etc.) qui ont mis en place des services permettant de vendre et d’acheter facilement les produits que l’on souhaite. 
+                            <br>En plus d’acheter de seconde main, ces plateformes sont intéressantes au niveau économique, où l’on retrouve des objets de bonne qualité à prix réduit. 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropdownTitre">Lutter contre l’obsolescence programmée<i class="fas fa-angle-down fa-xl fleches"></i></button>
+                    <div class="dropdownText">
+                        <p>De nos jours, les objets électroniques sont de plus en plus sujets à l’<b>obsolescence programmée</b>… 
+                            <br>Ce concept dénonce un stratagème par lequel un bien verrait sa durée normative intentionnellement réduite dès sa conception, limitant ainsi sa durée d’usage pour des raisons de modèles économiques. L’idée derrière cette technique est de <b>réduire un maximum la durée de vie d’un objet</b> pour que les consommateurs soient incités à la surconsommation et nourrissent donc la surproduction. L’obsolescence programmée est considérée comme un délit et est punit par la loi depuis 2015 !
+                            <br><br>Pour lutter contre l’obsolescence programmée, nous devons éviter de remplacer un objet électronique alors qu’il est encore fonctionnel. S’il a une défaillance ou une pièce cassée, nous pouvons tout simplement le <b>réparer</b> ou <b>changer la pièce</b> en question. 
+                            <br>Selon Kantar Worldpanel sur une étude menée en 2017, <b>un français change en moyenne son téléphone tous les 22 mois</b>.La majorité du temps, les smartphones sont encore utilisables et réparables. 
+                            <br><b>Priorisons la réparation pour allonger la durée de vie de notre matériel numérique !</b> 
+                            <br><br>Le gouvernement a créé une plateforme entièrement dédiée à l’<b></b>allongement de la durée de vie des objets</b> : <a href="https://longuevieauxobjets.gouv.fr">https://longuevieauxobjets.gouv.fr/</a>. Pour n’importe quel type de demande (réparation, recyclage, location, etc.), vous trouverez des <b>artisans et boutiques de proximité</b> ! 
+                            <br><br>En janvier 2021, une mesure de réparabilité sur les appareils électroniques a été mise en place dans le cadre de <b>la loi anti-gaspillage</b>. 
+                            <br><a href="https://www.indicereparabilite.fr">L’indice de réparabilité</a> a pour objectif de sensibiliser le consommateur en l’informant, dès son achat, de la réparabilité de son produit. Cet indicateur se construit sur <b>5 critères principaux</b> : la disponibilité de la documentation, la démontabilité, l’accès et les outils, la disponibilité des pièces détachées, le prix des pièces détachées et, enfin, le critère spécifique à la catégorie d’équipements concernée. La note finale sur 10 de l’indice de réparabilité est la moyenne de ces 5 critères.
+                            <br>Nous conseillons alors de privilégier les appareils avec un <b>fort indice de réparabilité</b>. Par exemple du côté des smartphones, les marques <b>Athesi</b> et <b>Fairphone</b> se trouvent en tête du classement, avec une moyenne supérieur à 9/10 ! 
+                            <br><br><i><a href="https://www.indicereparabilite.fr/appareils/multimedia/smartphone/?orderby=price-desc">Source : https://www.indicereparabilite.fr/appareils/multimedia/smartphone/?orderby=price-desc</a></i>
+                            </p>
+                    </div>
+                </div>
+                
+                <div class="dropdown">
+                <button class="dropdownTitre">Recycler les appareils hors d’usage<i class="fas fa-angle-down fa-xl fleches"></i></button>
+                    <div class="dropdownText">
+                        <p>Il est très important de <b>recycler</b> tous nos anciens appareils (téléphones, ordinateurs, etc.) ! Pour la France, cela correspondrait à un total entre <b>54 et 113 millions de téléphones inutilisés</b> dans nos placards. Ce sont des puits à matières précieuses qui pourraient être réemployées dans des nouveaux objets.
+                            <br><br>Le recyclage de tous ses appareils permettrait de retraiter et recycler correctement <b>tous les matériaux et substances polluantes</b> contenues dans nos objets électroniques. En réemployant les pièces rares des anciens appareils, le coût énergétique de la <b>phase de fabrication</b> de nouveaux biens sera donc beaucoup moins polluant et énergivore.
+                            <br><br>Lorsqu’un téléphone ou ordinateur ne fonctionne plus, nous pouvons l’apporter dans des <b>points de collecte</b> conçus pour les recycler comme il se doit ! 
+                            <br>De nombreux opérateurs, des associations et autres commerçants collectent les anciens smartphones ou ordinateurs pour les recycler. N’oubliez pas les points de collecte en <b>déchetterie</b> ! 😊
+                            </p>
+                    </div>
+                </div>
+            </div>
+       
+            <div id="actionsQuotidiennes" class="blocDropdown">
+                <div class="dropdown">
+                    <button class="dropdownTitre">Eviter de regarder des vidéos HD en 4G ! <i class="fas fa-angle-down fa-xl fleches"></i></button>
+                    <div class="dropdownText">
+                        <p><b style="font-size: 18px;">Le saviez-vous ? </b>
+                            <br>La 4G consomme <b>23 fois plus d’énergie</b> que le Wifi ! 
+                            <br><br>On privilégie alors la connexion au Wifi ou filaire. Ou alors, nous pouvons activer l’économiseur de données pour empêcher certaines applications de recevoir des données en permanence.
+                            <br>De plus, le streaming mondial émet 300 millions de tonnes de CO2. Ainsi, il n’est pas souvent nécessaire de regarder les vidéos en HD. 
+                            <br><br><b>Réduire la résolution de stream des vidéos permet déjà de diminuer son impact !</b> 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropdownTitre">Optimiser la gestion de ses mails<i class="fas fa-angle-down fa-xl fleches"></i></button>
+                    <div class="dropdownText">
+                        <p>Nous le savons tous, trier sa longue liste de mails est une tâche fastidieuse ! Cependant, si on le fait de manière récurrente et en plusieurs fois, cette mission sera moins fatigante. 
+                            <br>Pour nettoyer facilement sa boite mail, il existe plusieurs nettoyeurs de courrier comme <b>Cleanfox, Clean Email, Mailstorm,</b> etc. 
+                            <br>Ils permettent de faire facilement le tri et de <b>bloquer les newsletters</b> qu’on ne lit plus. 
+                            <br><br>De manière générale, on priorise la <b>suppression des mails</b> qui contiennent des <b>lourdes pièces jointes inutiles</b>. L’envoi et le stockage d’un mail avec documents correspondent à laisser <b>une ampoule allumée pendant 1 heure… </b>
+                            <br><br>Afin de <b>limiter l’envoi des pièces jointes par mail au travail</b>, nous pouvons passer par des <b>plateformes collaboratives</b> comme Teams ou SharePoint. La solution est d’envoyer le lien du document stocké sur la plateforme au destinataire. En plus de <b>minimiser le stockage des documents</b>, cette technique permet de limiter le nombre de versions du même contenu. 
+                            <br>Par ailleurs, l’utilisation de <b>messagerie instantanée</b> est plus efficace pour tous les échanges informels entre collaborateurs ! 
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="dropdown">
+                    <button class="dropdownTitre">Limiter le stockage dans un cloud <i class="fas fa-angle-down fa-xl fleches"></i></button>
+                    <div class="dropdownText">
+                        <p>Au même titre que le stockage des mails, sauvegarder un fichier personnel (photo, vidéo, document) en ligne sur un cloud pendant 1 an <b>consomme deux fois plus d’énergie</b> que de le stocker localement sur son PC. 
+                            <br>En effet, conserver ses données en ligne nécessite des <b>datacenters et ressources supplémentaires</b> (eau, électricité, etc.) et bien plus conséquentes que le stockage local. 
+                            <br><br>Pour autant, un <b>nettoyage régulier de ses fichiers</b> ne fait jamais de mal à son appareil électronique, tant pour sa performance que pour l’environnement !
+                            </p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h3>Conclusion</h3>
+                <p>De nos jours, la publicité et le marketing nous poussent à la surconsommation afin de changer d’appareil bien avant sa fin de vie… Posons-nous les bonnes questions sur nos besoins avant d’acheter de nouveaux produits et tendons vers une consommation plus sobre !</p>
+            </div>           
+        </section>
+
+        <!-- button>Article précédent</button> -->
+
+        <section class="AutresArticles margin80">
+            <h2 class="margin60">Vous devriez aussi aimer</h2>
+            <div class="display-row space-between">
+                <div class="card cardArticle">
+                    <img class="imageArticle" src="Images/ImageArticle.png" alt="">
+
+                    <div class="cardElements">
+                        <h3>Réaliser une identité visuelle</h3>
+                        <h4>23 octobre 2019</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, fuga ducimus! Ab pariatur
+                            accusamus similique, neque corporis consequatur iusto nisi?</p>
+                    </div>
+
+                </div>
+
+                <div class="card cardArticle">
+                    <img class="imageArticle" src="Images/ImageArticle.png" alt="">
+
+                    <div class="cardElements">
+                        <h3>Réaliser une identité visuelle</h3>
+                        <h4>23 octobre 2019</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, fuga ducimus! Ab pariatur
+                            accusamus similique, neque corporis consequatur iusto nisi?</p>
+                    </div>
+
+                </div>
+
+                <div class="card cardArticle">
+                    <img class="imageArticle" src="Images/ImageArticle.png" alt="">
+
+                    <div class="cardElements">
+                        <h3>Réaliser une identité visuelle</h3>
+                        <h4>23 octobre 2019</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, fuga ducimus! Ab pariatur
+                            accusamus similique, neque corporis consequatur iusto nisi?</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+    
+<script>
+var acc = document.getElementsByClassName("dropdownTitre");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownText = this.nextElementSibling;
+    if (dropdownText.style.display === "block") {
+      dropdownText.style.display = "none";
+    } else {
+      dropdownText.style.display = "block";
+    }
+  });
+  
+}
+
+var habC = document.getElementById("habitudesConso");
+var actQ = document.getElementById("actionsQuotidiennes");
+var card1 = document.getElementById("card1");
+var card2 = document.getElementById("card2");
+var TactQ = document.getElementById("titreActQuot");
+var ThabC = document.getElementById("titreHabConso");
+
+
+const iconCardS = document.getElementsByClassName("iconCard selectionner");
+const iconCardM = document.getElementsByClassName("iconCard masquer"); 
+
+function habitudesConso() {
+   habC.classList.remove("masquer");
+   actQ.classList.add("masquer");
+
+   card1.classList.add("selectionner");
+   card2.classList.remove("selectionner");
+
+   TactQ.classList.remove("selectionnerTitre");
+   ThabC.classList.add("selectionnerTitre");
+
+   card1.style.color = "white";
+   card2.style.color = "#65A691";
+}
+
+function actionsQuotidiennes() {
+   habC.classList.add("masquer");
+   actQ.classList.remove("masquer");
+
+   card2.classList.add("selectionner");
+   card1.classList.remove("selectionner");
+
+   TactQ.classList.add("selectionnerTitre");
+   ThabC.classList.remove("selectionnerTitre");
+
+   card2.style.color = "white";
+   card1.style.color = "#65A691";
+}
+
+/*var fleche = document.getElementsByClassName("fleches");
+fleche.classList.add("rotation"); */
+
+</script>
+
+</body>
+
+</html>
